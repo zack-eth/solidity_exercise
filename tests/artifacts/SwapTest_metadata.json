@@ -1,0 +1,98 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "beforeAll",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "takeFixedRate",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "takeVariableRate",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {
+				"takeFixedRate()": {
+					"notice": "#value: 100 #sender: account-0"
+				},
+				"takeVariableRate()": {
+					"notice": "#value: 100 #sender: account-1"
+				}
+			},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"tests/Swap_test.sol": "SwapTest"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/Swap.sol": {
+			"keccak256": "0x6829dda8687656cb5f008cc827eac11df012eeab3a255186af009752ff22a2aa",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://5bfaa9d58e37df50ce246a6b181f77b97ef240ebaed17ed8e2345dfb912bb20a",
+				"dweb:/ipfs/QmcWYTJE8b27oaPsbWV6hnDQePnJ1rHSirLUD49BCPTyPx"
+			]
+		},
+		"remix_accounts.sol": {
+			"keccak256": "0x198a94b8e0342a81c31fda8ba387964155802ef81807e01e83e2320682dce327",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://db7d9939731e6fe2030d53b80f57ce2c1f8044209c1c67e634e81160227d3019",
+				"dweb:/ipfs/QmRLYhZ2Y6bfh83QSD2hCnhVFejevzh77zUTohCCC8yCtu"
+			]
+		},
+		"remix_tests.sol": {
+			"keccak256": "0xe2783cdc204cba8c72494119339f1d90f9022b15d6c718c668b7f097d8e29787",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://bb6a22e64c7f16bcaab63b1c1a1b269d5be8a6d37bdd9dec1718477ab916b18e",
+				"dweb:/ipfs/QmdkW1tT5iadBvaHMCoskhDGZKnfdg8o1D9CcoQYtdJet7"
+			]
+		},
+		"tests/Swap_test.sol": {
+			"keccak256": "0xc74cb517ed317a4082bff2ebb59ac20d636a8d4950ce4c475b652286cee4368c",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://1dd4852e872ef77a6baf51fe82b979c33486a3ea3054937c4c618469299f9e23",
+				"dweb:/ipfs/QmXio917e89xUXDrwKbugGmicP6e3VKeKUJZHWFPD6P1t8"
+			]
+		}
+	},
+	"version": 1
+}
